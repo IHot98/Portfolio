@@ -1,0 +1,59 @@
+.section2{
+    
+    flex:1;
+     background-color: #dbdbdb;
+     padding: 3%;
+     
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     
+  
+  }
+  
+  
+
+  .content{
+    display: flex;
+    flex-shrink: initial;
+    flex-direction: column;
+  }
+  @media (max-width: 800px) {
+  .content {
+    
+    flex-direction: column;
+    
+  }
+  }
+  .polaroid img{
+      
+     width:100%;
+     
+     max-width: 500px; ;
+  
+  }
+  div.polaroid {
+    grid:auto / auto auto ;
+  display:grid;
+    
+    
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom:25px;
+    
+  }
+  div.polaroid:hover {
+   
+    
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.281), 0 12px 40px 0 rgba(0, 0, 0, 0.76);
+    margin-bottom: 25px;
+  }
+  
+  div.polaroid_container {
+      padding: 10px;;
+    text-align: left;
+
+    
+  }
+  

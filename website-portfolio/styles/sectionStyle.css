@@ -1,0 +1,155 @@
+
+.section1{
+    
+       flex:1;
+        background-color: #000000;
+        
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+}
+.section1 h1{
+  color:rgb(42, 40, 53);
+  font-size: 50px;
+}
+.section1 span{
+  background-color: rgb(209, 174, 79);;
+}
+.section1 p{
+  background-color: rgb(209, 174, 79);;
+}
+
+.left_side1{
+  color:khaki;
+  flex:2;    
+  margin: 10px;
+  
+
+}
+.left_side1 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 66%;
+  
+}
+.right_side1{
+    color:rgb(82, 82, 82);
+    background-color: rgba(218, 217, 216, 0.212);
+    margin:10px;
+    flex:1;  
+    
+    word-wrap: break-word;  
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 5%;
+    font-size: 150%;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #ffffff23;
+    
+    
+   
+    
+}
+.right_side1:hover{
+  
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 10px 15px #ffffff23;
+  
+ 
+  
+}
+
+@media (max-width: 800px) {
+.section1 {
+  flex-direction: column;
+}
+}
+
+.section2{
+    
+  flex:1;
+   background-color: #dbdbdb;
+   padding: 3%;
+   
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   
+
+}
+.section2 h1{
+  color:black;
+  text-align: center;
+}
+
+.left_side2{
+  color:rgb(0, 0, 0);
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  
+     
+  
+
+}
+.right_side2{
+  
+  color:rgb(0, 0, 0);
+    flex:1;  
+    
+  display: flex;
+  flex-direction: column;
+   
+    
+}
+.content{
+  display: flex;
+  flex-shrink: initial;
+  flex-direction: row;
+}
+@media (max-width: 800px) {
+.content {
+  
+  flex-direction: column;
+  
+}
+}
+.polaroid img{
+   width:100%;
+   max-height: 600px;
+   
+
+}
+div.polaroid {
+  max-width: 500px;
+  
+  
+  display: block;
+  margin: auto;
+  
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  
+}
+div.polaroid:hover {
+ 
+  
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.281), 0 12px 40px 0 rgba(0, 0, 0, 0.76);
+  margin-bottom: 25px;
+}
+
+div.polaroid_container {
+  text-align: center;
+  padding: 10px 20px;
+}
